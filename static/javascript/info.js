@@ -6,7 +6,7 @@ const renderCharts=(data,labels)=>{
         data: {
             labels: labels,
             datasets: [{
-                label: 'Last one month expense',
+                label: 'Last one year expense',
                 data: data,
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
@@ -40,7 +40,7 @@ const renderCharts=(data,labels)=>{
 
 const getChartData=()=>{
     console.log('fetching');
-    fetch('/expense_week').then(res=>res.json()).then(results=>{
+    fetch('/info_year').then(res=>res.json()).then(results=>{
         console.log("results",results);
         const category_data = results.expense_category_data;
         const [labels,data] = [Object.keys(category_data),Object.values(category_data)]

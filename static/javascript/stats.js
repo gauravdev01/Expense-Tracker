@@ -40,7 +40,7 @@ const renderCharts=(data,labels)=>{
 
 const getChartData=()=>{
     console.log('fetching');
-    fetch('/expense_week').then(res=>res.json()).then(results=>{
+    fetch('/expense_month').then(res=>res.json()).then(results=>{
         console.log("results",results);
         const category_data = results.expense_category_data;
         const [labels,data] = [Object.keys(category_data),Object.values(category_data)]
@@ -49,3 +49,4 @@ const getChartData=()=>{
 };
 
 document.onload = getChartData()
+
