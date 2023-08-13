@@ -13,6 +13,7 @@ To begin with the project, you need to install django on your system. To install
  -> Pip install django
  
 ->Create a project and an app:
+
 We will create a new project named ExpenseTracker and an app to start the project. Write the following command on the terminal window.
 
 ->django-admin startproject ExpenseTracker
