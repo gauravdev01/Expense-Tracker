@@ -11,6 +11,7 @@ Project File Structure
 ->Install django framework:
 To begin with the project, you need to install django on your system. To install django, write the following command on cmd or terminal window.
  -> Pip install django
+ 
 ->Create a project and an app:
 We will create a new project named ExpenseTracker and an app to start the project. Write the following command on the terminal window.
 
