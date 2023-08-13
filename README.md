@@ -7,8 +7,7 @@ Project File Structure
 4. Admin.py
 5. Urls.py
 6. Views.py
-
-
+  
 1. Install django framework:
 To begin with the project, you need to install django on your system. To install django, write the following command on cmd or terminal window.
  -> Pip install django
