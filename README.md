@@ -22,6 +22,7 @@ python mange.py startapp home
 Create a template and static folder to store your files. Template folder will contain all the html files. Static folder will contain all the css files ,images and javascript files.
 
 3. Models.py
+   
 Database connectivity is done with the help of models.py. Create the following models in models.py file in the app of your project.
 from django.db import models
 
