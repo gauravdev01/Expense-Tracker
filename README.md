@@ -8,6 +8,7 @@ Project File Structure
 5. Urls.py
 6. Views.py
 
+
 1. Install django framework:
 To begin with the project, you need to install django on your system. To install django, write the following command on cmd or terminal window.
  -> Pip install django
@@ -124,7 +125,9 @@ e. Integerfield():It stores integer numbers in a database.
 f. Imagefield():It stores images in the database.
 
 4. Admin.py
+
 It will help register the tables in the database.
+
 Code Explanation:
 
 SELECT_CATEGORY_CHOICES , EXPENSE_CHOICES , PROFESSION_CHOICES contain the list of options that will be given while filling the expense form.
@@ -142,7 +145,9 @@ e. Integerfield():It stores integer numbers in a database.
 f. Imagefield():It stores images in the database.
 
 4. Admin.py
+   
 It will help register the tables in the database.
+
 # Register your models here.
 
 from .models import Addmoney_info
@@ -169,6 +174,7 @@ Addmoney_info, UserProfile are the names of the models that we want to register 
 To store these models in the database, run the following command:
 
      python manage.py makemigrations
+     
      python manage.py migrate
 For accessing the database, create the superuser. To create a superuser run the following command on your terminal window.
 
